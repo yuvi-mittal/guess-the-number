@@ -57,7 +57,7 @@ function checkGuess(guess){
 
 function displayGuess(message){
     userInput.value = '';
-    guessSlot.innerHTML += `${guess}`;
+    guessSlot.innerHTML += `${message}`;
     numGuess++;
     remaining.innerHTML = `${11- numGuess}`;
     // clean karega 
@@ -65,7 +65,7 @@ function displayGuess(message){
 
 
 function displayMessage(message){
-loworhi.innerHTML = `<h2>$(message)</h2>`;
+loworhi.innerHTML = `<h2>${message}</h2>`;
   // print message 
 }
 function endGame(){
