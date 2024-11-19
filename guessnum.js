@@ -21,6 +21,8 @@ if(playGame ){
         validateGuess(guess);
     })
 }
+
+// let me push it 
 function validateGuess(guess){
     if(isNaN(guess)){
         alert(`please enter valid number`)
